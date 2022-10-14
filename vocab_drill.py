@@ -46,6 +46,10 @@ class vocab_drill(object):
                 print("\nExiting...")
                 continue_test = False
                 break
+            except EOFError as EOFE:
+                print("\nExiting...")
+                continue_test = False
+                break
         if continue_test:
             print("\n*** FINISHED *** %s" % self.vocab_name)
         return continue_test
@@ -904,7 +908,7 @@ class run_vocab_drill(object):
                     break
 
 def create_parser():
-    parser = OptionParser(description="French vocabulary and verb tense drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  Incorrect answers cause the question to be added to the end of the list of questions.  All questions for an area must be answered correctly before the next area can start.")
+    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  All questions for an area must be answered correctly before the next area is started.          Enter 'Stop' or CTRL<D> to exit the drill.")
     parser.add_option("-v", "--vocabulary", 
                       action="store_true", dest="general_vocab", default=False,
                       help="general vocabulary (nouns, adjectives, verbs)")
