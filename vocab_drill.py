@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: latin-1 -*-
 """
-    Random French vocabulary drill 
+    Random French vocabulary drill
 """
 
 from optparse import OptionParser
@@ -106,9 +106,9 @@ nouns = [ ["the coal", "le charbon"],
           ["the pistol", "le pistolet"],
           ["the password", "le mot de passe"],
           ["the username", "le mot d'utilisateur"],
-          ["the connection", "le connexion"], 
-          ["loading", "chargement"], 
-          ["at race pace", "au rythme de la course"], 
+          ["the connection", "le connexion"],
+          ["loading", "chargement"],
+          ["at race pace", "au rythme de la course"],
           ["a run", "une course"],
           ["the checklist", "la liste de contr\u00f4le"],
           ["first of all", "tout d'abord"],
@@ -606,8 +606,31 @@ nouns = [ ["the coal", "le charbon"],
           ["spiderwebs", "les toiles d'araign\u00e9e"],
           ["jack-o-lantern", "citrouille-lanternes"],
           ["the pumpkin", "une citrouille"],
-          ["to laugh", "rigoler"]
+          ["to laugh", "rigoler"],
+          ["surprising", "suprenant"],
+          ["surprised(m)", "surpris"],
+          ["surprised(f)", "surprise"],
+          ["responsible", "responsable"],
+          ["curious(m)", "curieux"],
+          ["curious(f)", "curieuse"],
+          ["kindergarten", "maternelle"],
+          ["elementary school", "\u00e9cole primaire"],
+          ["middle school", "\u00e9cole interm\u00e9diaire"],
+          ["high school", "\u00e9cole secondaire"],
+          ["the candle", "la bougie"],
+          ["the candlestick", "la bougeoir"],
+          ["the map", "la carte"],
+          ["climate change", "changement climatique"],
+          ["dry(m)", "sec"],
+          ["dry(f)", "s\u00e8che"],
+          ["redneck", "plouc"]
           ]
+
+contractions = [ ["\u00e2 le", "au"],
+                 ["\u00e2 les", "aux"],
+                 ["de le", "du"],
+                 ["de les", "des"]
+               ]
 
 present_verbs = [ ["I run", "je cours"],
                   ["you run", "tu cours"],
@@ -790,7 +813,7 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["they(f) went", "elles allaient"],
                   ]
 
-futur_simple_verbs = [ 
+futur_simple_verbs = [
                     ["I will run", "je courrai"],
                     ["you will run", "tu courras"],
                     ["he will run", "il courra"],
@@ -976,13 +999,13 @@ passe_compose_verbs = [
                     ["he went(m)", "il est all\u00e9"],
                     ["we went(m)", "nous sommes all\u00e9s"],
                     ["y'all went(m)", "vous \u00eates all\u00e9s"],
-                    ["they(m) went(m)", "ils sont all\u00e9s"],
+                    ["they(m) went", "ils sont all\u00e9s"],
                     ["I went(f)", "je suis all\u00e9e"],
                     ["you went(f)", "tu es all\u00e9e"],
                     ["she went(f)", "elle est all\u00e9e"],
                     ["we went(f)", "nous sommes all\u00e9es"],
                     ["y'all went(f)", "vous \u00eates all\u00e9es"],
-                    ["they(f) went(f)", "elles sont all\u00e9es"],
+                    ["they(f) went", "elles sont all\u00e9es"],
                   ]
 
 
@@ -995,6 +1018,8 @@ class run_vocab_drill(object):
                                             imparfait_verbs)
         self.futur_simple_verbs = vocab_drill("Futur simple verbs",
                                                futur_simple_verbs)
+        self.contractions = vocab_drill("Contractions",
+                                         contractions)
         self.passe_compose_verbs = vocab_drill("Passe compose verbs",
                                                 passe_compose_verbs)
         self.drills = []
@@ -1008,6 +1033,8 @@ class run_vocab_drill(object):
             self.drills.append(self.futur_simple_verbs)
         if options.passe_compose:
             self.drills.append(self.passe_compose_verbs)
+        if options.contractions:
+            self.drills.append(self.contractions)
         self.sample_size = options.sample_size
 
     def run_drill(self):
@@ -1021,21 +1048,24 @@ class run_vocab_drill(object):
 
 def create_parser():
     parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  All questions for an area must be answered correctly before the next area is started.          Enter 'Stop' or CTRL<D> to exit the drill.")
-    parser.add_option("-v", "--vocabulary", 
+    parser.add_option("-v", "--vocabulary",
                       action="store_true", dest="general_vocab", default=False,
                       help="general vocabulary (nouns, adjectives, verbs)")
-    parser.add_option("-p", "--present", 
+    parser.add_option("-p", "--present",
                       action="store_true", dest="present_tense", default=False,
                       help="conjugate verbs in present tense")
-    parser.add_option("-f", "--future", 
+    parser.add_option("-f", "--future",
                       action="store_true", dest="futur_simple", default=False,
                       help="conjugate verbs in futur simple")
-    parser.add_option("-i", "--imparfait", 
+    parser.add_option("-i", "--imparfait",
                       action="store_true", dest="imparfait_tense", default=False,
                       help="conjugate verbs in imparfait")
-    parser.add_option("-c", "--passe_compose", 
+    parser.add_option("-c", "--passe_compose",
                       action="store_true", dest="passe_compose", default=False,
                       help="conjugate verbs in passe compose")
+    parser.add_option("-C", "--contractions",
+                      action="store_true", dest="contractions", default=False,
+                      help="check vocabulary of french contractions")
     parser.add_option("-s", "--sample_size", type="int",
                       dest="sample_size", default=5,
                       help="set sample size for each test")
@@ -1050,6 +1080,7 @@ def check_options(options):
         options.futur_simple = True
         options.imparfait_tense = True
         options.passe_compose = True
+        options.contractions = True
     else:
        # If at least one tense was requested,
        # set the default sample size is check all verbs for each tense.
