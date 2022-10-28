@@ -21,7 +21,7 @@ class vocab_drill(object):
     def run_drill(self, test_count):
         continue_test = True
         response = "Continue"
-        if test_count == 0:
+        if test_count == 0 or test_count > len(self.vocab_array):
             test_count = len(self.vocab_array)
         v_choices = random.sample(self.vocab_array, test_count)
         index = 0
@@ -1074,7 +1074,7 @@ def create_parser():
 def check_options(options):
     if (not options.present_tense and not options.futur_simple and
         not options.imparfait_tense and not options.passe_compose and
-        not options.general_vocab):
+        not options.general_vocab and not options.contractions):
         options.general_vocab = True
         options.present_tense = True
         options.futur_simple = True
