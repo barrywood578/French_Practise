@@ -403,7 +403,7 @@ nouns = [ ["the coal", "le charbon"],
           ["1990", "mille neuf cent quatre-vingt dix"],
           ["second world war", "deuxi\u00e8me guerre mondiale"],
           ["to judge", "juger"],
-          ["to see", "\u00e0 voir"],
+          ["to see", "voir"],
           ["it was a good day", "c'\u00e9tait une bonne journ\u00e9e"],
           ["I rode my bike", "j'ai fait du v\u00e9lo"],
           ["I rode my horse", "j'ai mont\u00e9 mon cheval"],
@@ -509,7 +509,7 @@ nouns = [ ["the coal", "le charbon"],
           ["I'm going to give them away for free", "je vais les donner gratuitement"],
           ["background (history)", "contexte"],
           ["it looks cheap", "ca a l'air cheap"],
-          ["for real professionals", "pour les frai professionnels"],
+          ["for real professionals", "pour les vrais professionnels"],
           ["the vegetable", "le l\u00e9gume"],
           ["when I freeze them", "quand je les cong\u00e8le"],
           ["ice-cube trays", "plateaux \u00e0 gla\u00e7ons"],
@@ -623,7 +623,22 @@ nouns = [ ["the coal", "le charbon"],
           ["climate change", "changement climatique"],
           ["dry(m)", "sec"],
           ["dry(f)", "s\u00e8che"],
-          ["redneck", "plouc"]
+          ["redneck", "plouc"],
+          ["I practised", "j'ai pratiqu\u00e9"],
+          ["I tried", "j'ai essay\u00e9"],
+          ["to try", "essayer"],
+          ["to practise", "pratiquer"],
+          ["attempted", "tent\u00e9"],
+          ["sometimes I was correct", "parfois j'\u00e9tait correct"],
+          ["the movie", "le film"],
+          ["a suggestion", "une suggestion"],
+          ["in fact", "en fait"],
+          ["nice", "joli"],
+          ["inflate a balloon", "gonfler un ballon"],
+          ["to inflate", "gonfler"],
+          ["blow out a candle", "souffler une bougie"],
+          ["to blow", "souffler"],
+          ["the contest", "le concours"]
           ]
 
 contractions = [ ["\u00e2 le", "au"],
@@ -1038,6 +1053,7 @@ class run_vocab_drill(object):
         self.sample_size = options.sample_size
 
     def run_drill(self):
+        drill_count = 0
         continue_drill = True
         while (continue_drill):
             drill_types = random.sample(self.drills, len(self.drills))
@@ -1045,6 +1061,9 @@ class run_vocab_drill(object):
                 continue_drill = drill_type.run_drill(self.sample_size)
                 if not continue_drill:
                     break
+            drill_count = drill_count + 1
+            print("\n***>>> Completed all drills for round %d. <<<***\n"
+                    % drill_count)
 
 def create_parser():
     parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  All questions for an area must be answered correctly before the next area is started.          Enter 'Stop' or CTRL<D> to exit the drill.")
