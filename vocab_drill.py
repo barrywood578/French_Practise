@@ -534,10 +534,13 @@ nouns = [ ["the coal", "le charbon"],
           ["nice", "joli"],
           ["inflate a balloon", "gonfler un ballon"],
           ["blow out a candle", "souffler une bougie"],
-          ["the contest", "le concours"]
+          ["the contest", "le concours"],
+          ["late in the morning", "en fin de matin\u00e9e"],
+          ["would that be okay with you", "est-ce que \u00e7a vous convient"]
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to type", "taper"],
           ["to spill/tilt/flip", "basculer"],
           ["to cut", "couper"],
           ["to insert", "ins\u00e9rer"],
