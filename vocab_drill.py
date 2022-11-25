@@ -343,7 +343,7 @@ nouns = [ ["the coal", "le charbon"],
           ["the breadcrumbs", "la chapelure"],
           ["the dough/paste", "la p\u00e2te"],
           ["a packet of", "un sachet de"],
-          ["baking powder", "la levure chimique"],
+          ["the baking powder", "la levure chimique"],
           ["the vanilla sugar", "le sucre vanill\u00e9"],
           ["the baking soda", "le bicarbonate de soude"],
           ["an egg yolk", "un jaune d'oeuf"],
@@ -362,7 +362,7 @@ nouns = [ ["the coal", "le charbon"],
           ["a knife", "un couteau"],
           ["a fork", "une fourchette"],
           ["a spoon", "une cuill\u00e8re"],
-          ["a dish", "une assiette"],
+          ["a plate", "une assiette"],
           ["a bowl", "un bol"],
           ["a glass", "un verre"],
           ["a mug", "une tasse"],
@@ -646,7 +646,8 @@ verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
           ["to try", "essayer"],
           ["to practise", "pratiquer"],
           ["to inflate", "gonfler"],
-          ["to blow", "souffler"]
+          ["to blow", "souffler"],
+          ["to put", "mettre"]
           ]
 
 contractions = [ ["\u00e2 le", "au"],
@@ -743,7 +744,15 @@ present_verbs = [ ["I run", "je cours"],
                   ["we go", "nous allons"],
                   ["y'all go", "vous allez"],
                   ["they(m) go", "ils vont"],
-                  ["they(f) go", "elles vont"]
+                  ["they(f) go", "elles vont"],
+                  ["I put", "je mets"],
+                  ["you put", "tu mets"],
+                  ["he puts", "il met"],
+                  ["she puts", "elle met"],
+                  ["we put", "nous mettons"],
+                  ["y'all put", "vous mettez"],
+                  ["they(m) put", "ils mettent"],
+                  ["they(f) put", "elles mettent"]
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -834,6 +843,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all went", "vous alliez"],
                     ["they(m) went", "ils allaient"],
                     ["they(f) went", "elles allaient"],
+                    ["I put", "je mettais"],
+                    ["you put", "tu mettais"],
+                    ["he puts", "il mettait"],
+                    ["she puts", "elle mettait"],
+                    ["we put", "nous mettions"],
+                    ["y'all put", "vous mettiez"],
+                    ["they(m) put", "ils mettaient"],
+                    ["they(f) put", "elles mettaient"]
                   ]
 
 futur_simple_verbs = [
@@ -925,6 +942,14 @@ futur_simple_verbs = [
                     ["y'all will go", "vous irez"],
                     ["they(m) will go", "ils iront"],
                     ["they(f) will go", "elles iront"],
+                    ["I will put", "je mettrai"],
+                    ["you will put", "tu mettras"],
+                    ["he will put", "il mettra"],
+                    ["she will put", "elle mettra"],
+                    ["we will put", "nous mettrons"],
+                    ["y'all will put", "vous mettrez"],
+                    ["they(m) will put", "ils mettront"],
+                    ["they(f) will put", "elles mettront"]
                   ]
 
 passe_compose_verbs = [
@@ -1029,6 +1054,14 @@ passe_compose_verbs = [
                     ["we went(f)", "nous sommes all\u00e9es"],
                     ["y'all went(f)", "vous \u00eates all\u00e9es"],
                     ["they(f) went", "elles sont all\u00e9es"],
+                    ["I have put", "j'ai mis"],
+                    ["you have put", "tu as mis"],
+                    ["he have put", "il a mis"],
+                    ["she have put", "elle a mis"],
+                    ["we have put", "nous avons mis"],
+                    ["y'all have put", "vous avez mis"],
+                    ["they(m) have put", "ils ont mis"],
+                    ["they(f) have put", "elles ont mis"]
                   ]
 
 
