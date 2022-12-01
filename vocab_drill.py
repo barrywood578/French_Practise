@@ -37,7 +37,7 @@ class vocab_drill(object):
                 if (response == "Stop"):
                     continue_test = False
                     break;
-                elif (response == v_choice[1]):
+                elif (response == v_choice[1]) or (response == "DROP IT"):
                     print ("Correct!")
                 else:
                     print ("Answer for '%s': %s" % (v_choice[0], v_choice[1]))
@@ -422,7 +422,7 @@ nouns = [ ["the coal", "le charbon"],
           ["lunch", "d\u00e9jeuner"],
           ["dinner", "d\u00eener"],
           ["the protein", "la prot\u00e9ine"],
-          ["strawberry jam", "confitures de fraises"],
+          ["strawberry jam", "confiture de fraises"],
           ["microwave", "micro-ondes"],
           ["thin", "mince"],
           ["thick(m)", "\u00e9pais"],
@@ -1121,7 +1121,7 @@ class run_vocab_drill(object):
                         % drill_count)
 
 def create_parser():
-    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  All questions for an area must be answered correctly before the next area is started.          Enter 'Stop' or CTRL<D> to exit the drill.")
+    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  All questions for an area must be answered correctly before the next area is started. Enter 'DROP IT' to drop a question. Enter 'Stop' or CTRL<D> to exit the drill.")
     parser.add_option("-g", "--general",
                       action="store_true", dest="general_vocab", default=False,
                       help="general vocabulary (nouns, adjectives)")
