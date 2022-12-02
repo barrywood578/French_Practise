@@ -55,6 +55,12 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["in life", "dans la vie"],
+          ["it will take 10 minutes", "\u00e7a va prendre dix minutes"],
+          ["how much time", "combien de temps"],
+          ["before playing", "avant de jouer"],
+          ["it could take a while", "\u00e7a risque d'\u00eatre long"],
+          ["single parent family", "une famille monoparentale"],
           ["to sell on the market", "mettre en vendre"],
           ["I am frustrated", "je suis frustr\u00e9"],
           ["take a lap", "faire un tour"],
@@ -181,7 +187,8 @@ phrases = [
           ["the drawer dividers (sep)", "les s\u00E9parateurs de tiroirs"],
           ["the tree has deep roots", "l'arbre a des racines profondes"],
           ["as for the cost of tea in China, who cares?", "quant au co\ue00fbt du th/ue009 en Chine, qui s'en soucie?"],
-          ["a t-shirt has short sleeves", "un t-shirt a des manches courtes"]
+          ["a t-shirt has short sleeves", "un t-shirt a des manches courtes"],
+          ["good shot (golf)", "bon coup"]
           ]
 
 nouns = [ ["the coal", "le charbon"],
@@ -272,6 +279,7 @@ nouns = [ ["the coal", "le charbon"],
           ["Lyme disease", "maladie de Lyme"],
           ["the bride", "la mari\u00e9e"],
           ["the groom", "le mari\u00e9"],
+          ["single (not married)", "c\u00e9libataire"],
           ["the same as", "pareil"],
           ["a stay", "un s\u00e9jour"],
           ["bilingual", "bilingue"],
@@ -405,6 +413,7 @@ nouns = [ ["the coal", "le charbon"],
           ["proud(f)", "fi\u00e8re"],
           ["the defect", "le d\u00e9faut"],
           ["far", "loin"],
+          ["close/near", "pr\u00e8s"],
           ["the small athlete", "le petit athl\u00e8te"],
           ["volunteer (person)", "b\u00e9n\u00e9vole"],
           ["except", "sauf"],
@@ -545,9 +554,19 @@ nouns = [ ["the coal", "le charbon"],
           ["the contest", "le concours"],
           ["immune system", "syst\u00e8me immunitaire"],
           ["side effects", "effets secondaires"],
+          ["divorced(m)", "divorc\u00e9"],
+          ["divorced(f)", "divorc\u00e9e"],
+          ["widower", "veuf"],
+          ["widow", "veuve"],
+          ["childhood", "enfance"],
+          ["obsessed", "obs\u00e9d\u00e9"],
+          ["because", "parce que"],
+          ["since", "car"],
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to clean", "nettoyer"],
+          ["to shoot", "tirer"],
           ["should/must/have to", "devoir"],
           ["to type", "taper"],
           ["to spill/tilt/flip", "basculer"],
