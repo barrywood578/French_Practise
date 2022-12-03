@@ -673,7 +673,8 @@ verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
           ["to inflate", "gonfler"],
           ["to blow", "souffler"],
           ["to put", "mettre"],
-          ["to hate", "d/u00e9tester"]
+          ["to give", "donner"],
+          ["to hate", "d\u00e9tester"]
           ]
 
 contractions = [ ["\u00e2 le", "au"],
@@ -778,7 +779,15 @@ present_verbs = [ ["I run", "je cours"],
                   ["we put", "nous mettons"],
                   ["y'all put", "vous mettez"],
                   ["they(m) put", "ils mettent"],
-                  ["they(f) put", "elles mettent"]
+                  ["they(f) put", "elles mettent"],
+                  ["I give", "je donne"],
+                  ["you give", "tu donnes"],
+                  ["he gives", "il donne"],
+                  ["she gives", "elle donne"],
+                  ["we give", "nous donnons"],
+                  ["y'all give", "vous donnez"],
+                  ["they(m) give", "ils donnent"],
+                  ["they(f) give", "elles donnent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -876,7 +885,15 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["we put", "nous mettions"],
                     ["y'all put", "vous mettiez"],
                     ["they(m) put", "ils mettaient"],
-                    ["they(f) put", "elles mettaient"]
+                    ["they(f) put", "elles mettaient"],
+                    ["I gave", "je donnais"],
+                    ["you gave", "tu donnais"],
+                    ["he gave", "il donnait"],
+                    ["she gave", "elle donnait"],
+                    ["we gave", "nous donnoins"],
+                    ["y'all gave", "vous donniez"],
+                    ["they(m) gave", "ils donnaient"],
+                    ["they(f) gave", "elles donnaient"],
                   ]
 
 futur_simple_verbs = [
@@ -975,7 +992,15 @@ futur_simple_verbs = [
                     ["we will put", "nous mettrons"],
                     ["y'all will put", "vous mettrez"],
                     ["they(m) will put", "ils mettront"],
-                    ["they(f) will put", "elles mettront"]
+                    ["they(f) will put", "elles mettront"],
+                    ["I will give", "je donnerai"],
+                    ["you will give", "tu donneras"],
+                    ["he will give", "il donnera"],
+                    ["she will give", "elle donnera"],
+                    ["we will give", "nous donnerons"],
+                    ["y'all will give", "vous donnerez"],
+                    ["they(m) will give", "ils donneront"],
+                    ["they(f) will give", "elles donneront"],
                   ]
 
 passe_compose_verbs = [
@@ -1087,7 +1112,15 @@ passe_compose_verbs = [
                     ["we have put", "nous avons mis"],
                     ["y'all have put", "vous avez mis"],
                     ["they(m) have put", "ils ont mis"],
-                    ["they(f) have put", "elles ont mis"]
+                    ["they(f) have put", "elles ont mis"],
+                    ["I have given", "j'ai donn\u00e9"],
+                    ["you have given", "tu as donn\u00e9"],
+                    ["he have given", "il a donn\u00e9"],
+                    ["she have given", "elle a donn\u00e9"],
+                    ["we have given", "nous avons donn\u00e9"],
+                    ["y'all have given", "vous avez donn\u00e9"],
+                    ["they(m) have given", "ils ont donn\u00e9"],
+                    ["they(f) have given", "elles ont donn\u00e9"],
                   ]
 
 
