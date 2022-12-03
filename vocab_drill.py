@@ -55,6 +55,8 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["half empty", "\u00e0 moiti\u00e9 vide"],
+          ["to have nightmares", "faire des cauchemars"],
           ["in life", "dans la vie"],
           ["it will take 10 minutes", "\u00e7a va prendre dix minutes"],
           ["how much time", "combien de temps"],
@@ -562,6 +564,21 @@ nouns = [ ["the coal", "le charbon"],
           ["obsessed", "obs\u00e9d\u00e9"],
           ["because", "parce que"],
           ["since", "car"],
+          ["on average", "en moyenne"],
+          ["a market share", "une part de march\u00e9"],
+          ["mainly", "principalement"],
+          ["mammals", "mammif\u00e8res"],
+          ["the goat", "la ch\u00e8vre"],
+          ["the cow", "la vache"],
+          ["the sheep", "la brebis"],
+          ["the buffalo", "la bufflonne"],
+          ["the donkey", "l'\u00e2nesse"],
+          ["as much", "autant"],
+          ["noisy(m)", "bruyant"],
+          ["noisy(f)", "bruyante"],
+          ["the room", "la salle"],
+          ["empty", "vide"],
+          ["full", "pleine"],
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
