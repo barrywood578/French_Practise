@@ -55,6 +55,12 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["to have your hands full", "avoir le mains pleines"],
+          ["I was expecting", "je m'attendais \u00e0"],
+          ["the Rocky Mountains", "les montagnes Rocheuses"],
+          ["a lost suitcase", "une valise disparue"],
+          ["to take steps", "faire des d\u00e9marches"],
+          ["try on a piece of clothing", "essayer un v\u00eatement"],
           ["all around the world", "partout dans le monde"],
           ["we call each other", "on s'appelle"],
           ["find a job", "trouver un emploi"],
@@ -608,9 +614,18 @@ nouns = [ ["the coal", "le charbon"],
           ["an employee(f)", "une employ\u00e9e"],
           ["by hand", "\u00e0 la main"],
           ["the brain", "le cerveau"],
+          ["a sweater", "un chandail"],
+          ["the size", "la grandeur"],
+          ["bright(m)", "lumineux"],
+          ["bright(f)", "lumineuse"],
+          ["the furniture", "les meubles"],
+          ["the living room", "le salon"],
+          ["the kitchen", "la cuisine"],
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to resemble", "ressembler"],
+          ["to shop", "magasiner"],
           ["to gather/pick", "cueillir"],
           ["to clean", "nettoyer"],
           ["to shoot", "tirer"],
