@@ -55,6 +55,7 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["but their commitment is admirable", "mais leur engagement est admirable"],
           ["to have your hands full", "avoir le mains pleines"],
           ["I was expecting", "je m'attendais \u00e0"],
           ["the Rocky Mountains", "les montagnes Rocheuses"],
@@ -621,6 +622,12 @@ nouns = [ ["the coal", "le charbon"],
           ["the furniture", "les meubles"],
           ["the living room", "le salon"],
           ["the kitchen", "la cuisine"],
+          ["the retiree(m)", "le retrait\u00e9"],
+          ["the retiree(f)", "le retrait\u00e9e"],
+          ["the retirees", "les retrait\u00e9s"],
+          ["older/elder", "aîné"],
+          ["a nurse", "une infirmi\u00e8re"],
+          ["a doctor", "un docteur"],
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
@@ -873,7 +880,7 @@ present_verbs = [ ["I run", "je cours"],
                   ["she clean", "elle nettoie"],
                   ["we clean", "nous nettoyons"],
                   ["y'all clean", "vous nettoyez"],
-                  ["they(m) clean", "ils nettoievent"],
+                  ["they(m) clean", "ils nettoient"],
                   ["they(f) clean", "elles nettoient"],
                 ]
 
