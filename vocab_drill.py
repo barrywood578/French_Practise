@@ -892,6 +892,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all increase", "vous augmentez"],
                   ["they(m) increase", "ils augmentent"],
                   ["they(f) increase", "elles augmentent"],
+                  ["I gather", "je cueille"],
+                  ["you gather", "tu cueilles"],
+                  ["he gathers", "il cueille"],
+                  ["she gathers", "elle cueille"],
+                  ["we gather", "nous cueillons"],
+                  ["y'all gather", "vous cueillez"],
+                  ["they(m) gather", "ils cueillent"],
+                  ["they(f) gather", "elles cueillent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1030,6 +1038,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all increased", "vous augmentiez"],
                     ["they(m) increased", "ils augmentaient"],
                     ["they(f) increased", "elles augmentaient"],
+                    ["I gathered", "je cueillais"],
+                    ["you gathered", "tu cueillais"],
+                    ["he gathered", "il cueillait"],
+                    ["she gathered", "elle cueillait"],
+                    ["we gathered", "nous cueillions"],
+                    ["y'all gathered", "vous cueilliez"],
+                    ["they(m) gathered", "ils cueillaient"],
+                    ["they(f) gathered", "elles cueillaient"],
                   ]
 
 futur_simple_verbs = [
@@ -1169,6 +1185,14 @@ futur_simple_verbs = [
                     ["y'all will increase", "vous augmenterez"],
                     ["they(m) will increase", "ils augmenteront"],
                     ["they(f) will increase", "elles augmenteront"],
+                    ["I will gather", "je cueillerai"],
+                    ["you will gather", "tu cueilleras"],
+                    ["he will gather", "il cueillera"],
+                    ["she will gather", "elle cueillera"],
+                    ["we will gather", "nous cueillerons"],
+                    ["y'all will gather", "vous cueillerez"],
+                    ["they(m) will gather", "ils cueilleront"],
+                    ["they(f) will gather", "elles cueilleront"],
                   ]
 
 passe_compose_verbs = [
@@ -1320,6 +1344,14 @@ passe_compose_verbs = [
                     ["y'all increased", "vous avez augment\u00e9"],
                     ["they(m) increased", "ils ont augment\u00e9"],
                     ["they(f) increased", "elles ont augment\u00e9"],
+                    ["I gathered", "j'ai cueilli"],
+                    ["you gathered", "tu as cueilli"],
+                    ["he gathered", "il a cueilli"],
+                    ["she gathered", "elle a cueilli"],
+                    ["we gathered", "nous avons cueilli"],
+                    ["y'all gathered", "vous avez cueilli"],
+                    ["they(m) gathered", "ils ont cueilli"],
+                    ["they(f) gathered", "elles ont cueilli"],
                   ]
 
 
