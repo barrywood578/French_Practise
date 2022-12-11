@@ -631,6 +631,8 @@ nouns = [ ["the coal", "le charbon"],
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to pass", "passer"],
+          ["to invite", "inviter"],
           ["to resemble", "ressembler"],
           ["to shop", "magasiner"],
           ["to gather/pick", "cueillir"],
