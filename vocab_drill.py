@@ -201,14 +201,14 @@ phrases = [
           ["walkout basement", "sous-sol avec acc\u00E8s direct"],
           ["knife throwing", "lancer de couteaux"],
           ["axe throwing", "lancer de hache"],
-          ["dog sledding", "chien de traineau"],
+          ["dog sledding", "chien de tra\u00eeneau"],
           ["Prince Edward Island", "\u00EEle du prince \u00E9douard"],
           ["other things", "d'autres choses"],
           ["that I can point to", "que je peux montrer du doigt"],
           ["the drawer divider (div)", "le diviseur de tiroir"],
           ["the drawer dividers (sep)", "les s\u00E9parateurs de tiroirs"],
           ["the tree has deep roots", "l'arbre a des racines profondes"],
-          ["as for the cost of tea in China, who cares?", "quant au co\ue00fbt du th/ue009 en Chine, qui s'en soucie?"],
+          ["as for the cost of tea in China, who cares?", "quant au co\u00fbt du th\ue009 en Chine, qui s'en soucie?"],
           ["a t-shirt has short sleeves", "un t-shirt a des manches courtes"],
           ["good shot (golf)", "bon coup"]
           ]
@@ -628,6 +628,7 @@ nouns = [ ["the coal", "le charbon"],
           ["older/elder", "a\u00een\u00e9"],
           ["a nurse", "une infirmi\u00e8re"],
           ["a doctor", "un docteur"],
+          ["a sled", "un tra\u00eeneau"],
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
