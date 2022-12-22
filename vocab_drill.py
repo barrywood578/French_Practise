@@ -85,7 +85,7 @@ phrases = [
           ["before playing", "avant de jouer"],
           ["it could take a while", "\u00e7a risque d'\u00eatre long"],
           ["a single parent family", "une famille monoparentale"],
-          ["to sell on the market", "mettre en vendre"],
+          ["to put up for sale", "mettre en vendre"],
           ["I am frustrated", "je suis frustr\u00e9"],
           ["take a lap", "faire un tour"],
           ["they(m) live longer", "ils vivent plus longtemps"],
@@ -929,6 +929,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all instigate", "vous incitez"],
                   ["they(m) instigate", "ils incitent"],
                   ["they(f) instigate", "elles incitent"],
+                  ["I include", "j'inclus"],
+                  ["you include", "tu inclus"],
+                  ["he includes", "il inclut"],
+                  ["she includes", "elle inclut"],
+                  ["we include", "nous incluons"],
+                  ["y'all include", "vous incluez"],
+                  ["they(m) include", "ils incluent"],
+                  ["they(f) include", "elles incluent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1091,6 +1099,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all incited", "vous incitiez"],
                     ["they(m) incited", "ils incitaient"],
                     ["they(f) incited", "elles incitaient"],
+                    ["I included", "j'incluais"],
+                    ["you included", "tu incluais"],
+                    ["he included", "il incluait"],
+                    ["she included", "elle incluait"],
+                    ["we included", "nous incluions"],
+                    ["y'all included", "vous incluiez"],
+                    ["they(m) included", "ils incluaient"],
+                    ["they(f) included", "elles incluaient"],
                   ]
 
 futur_simple_verbs = [
@@ -1254,6 +1270,14 @@ futur_simple_verbs = [
                     ["y'all will incite", "vous inciterez"],
                     ["they(m) will incite", "ils inciteront"],
                     ["they(f) will incite", "elles inciteront"],
+                    ["I will include", "j'inclurai"],
+                    ["you will include", "tu incluras"],
+                    ["he will include", "il inclura"],
+                    ["she will include", "elle inclura"],
+                    ["we will include", "nous inclurons"],
+                    ["y'all will include", "vous inclurez"],
+                    ["they(m) will include", "ils incluront"],
+                    ["they(f) will include", "elles incluront"],
                   ]
 
 passe_compose_verbs = [
@@ -1429,6 +1453,14 @@ passe_compose_verbs = [
                     ["y'all incited", "vous avez incit\u00e9"],
                     ["they(m) incited", "ils ont incit\u00e9"],
                     ["they(f) incited", "elles ont incit\u00e9"],
+                    ["I included", "j'ai inclus"],
+                    ["you included", "tu as inclus"],
+                    ["he included", "il a inclus"],
+                    ["she included", "elle a inclus"],
+                    ["we included", "nous avons inclus"],
+                    ["y'all included", "vous avez inclus"],
+                    ["they(m) included", "ils ont inclus"],
+                    ["they(f) included", "elles ont inclus"],
                   ]
 
 
