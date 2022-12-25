@@ -61,6 +61,8 @@ phrases = [
           ["young women prefer quite a thin nose", "les jeunes femmes pr\u00e9f\u00e8rent un nez assez fin"],
           ["arched eyebrows", "des sourcils arqu\uee09s"],
           ["high cheekbones", "des pommettes saillantes"],
+          ["muddy boots", "bottes boueuses"],
+          ["muddy hat", "chapeaux boueux"],
           ["from time to time", "de temps en temps"],
           ["at sunrise", "au lever du soleil"],
           ["a fishing village", "une village de p\u00eacheurs"],
@@ -258,8 +260,6 @@ nouns = [ ["the coal", "le charbon"],
           ["workout", "\u00EAntrainement"],
           ["the weight", "le poids"],
           ["the weights", "les poids"],
-          ["early", "t\u00F4t"],
-          ["late", "tard"],
           ["the target", "la cible"],
           ["the salesperson", "l'agent de vente"],
           ["the saleswoman", "la vendeuse"],
@@ -277,7 +277,6 @@ nouns = [ ["the coal", "le charbon"],
           ["loading", "chargement"],
           ["a run", "une course"],
           ["the checklist", "la liste de contr\u00f4le"],
-          ["mechanical", "m\u00E9canique"],
           ["mechanic (male)", "m\u00E9canicien"],
           ["mechanic (female)", "m\u00E9canicienne"],
           ["the twig", "la brindille"],
@@ -285,13 +284,10 @@ nouns = [ ["the coal", "le charbon"],
           ["the leaf", "la feuille"],
           ["the leaves", "les feuilles"],
           ["the lime", "le citron vert"],
-          ["similar", "similaire"],
           ["outskirts", "p\u00e9ripheri\u00e9"],
           ["the suburb", "la banlieue"],
           ["the shirt", "la chemise"],
           ["firstly", "premierement"],
-          ["first", "en premier"],
-          ["secondly", "deuxi\u00e8mement"],
           ["a hike", "une randonn\u00e9e"],
           ["the car", "la voiture"],
           ["the cooler", "le frigo"],
@@ -300,10 +296,6 @@ nouns = [ ["the coal", "le charbon"],
           ["the carry on", "le bagage \u00e0 main"],
           ["the big team", "la grande \u00e9quipe"],
           ["the box", "la bo\u00EEte"],
-          ["hard (m)", "dur"],
-          ["hard (f)", "dure"],
-          ["soft(m)", "doux"],
-          ["soft(f)", "douce"],
           ["an email", "un courriel"],
           ["India", "Inde"],
           ["either one", "n'importe"],
@@ -313,20 +305,15 @@ nouns = [ ["the coal", "le charbon"],
           ["between", "entre"],
           ["translation", "traduction"],
           ["recording", "enregistrement"],
-          ["useful", "utile"],
           ["health", "sant\u00e9"],
           ["Lyme disease", "maladie de Lyme"],
           ["the bride", "la mari\u00e9e"],
           ["the groom", "le mari\u00e9"],
-          ["single (not married)", "c\u00e9libataire"],
-          ["the same as", "pareil"],
           ["a stay", "un s\u00e9jour"],
-          ["bilingual", "bilingue"],
           ["the hat", "le chapeau"],
           ["the maritimes", "les maritimes"],
           ["the big tides", "les grandes mar\u00e9es"],
           ["the still water", "l'eau calme"],
-          ["deep", "profond"],
           ["location", "lieu"],
           ["place", "endroit"],
           ["the timing", "le timing"],
@@ -343,7 +330,6 @@ nouns = [ ["the coal", "le charbon"],
           ["my back", "mon dos"],
           ["the stretching", "l'\u00e9tirement"],
           ["a roller coaster", "une montagnes russes"],
-          ["terrifying", "terrifiant"],
           ["power plant", "centrale \u00e9lectrique"],
           ["the snow cones", "les cones de neige"],
           ["the brand", "la marque"],
@@ -354,19 +340,14 @@ nouns = [ ["the coal", "le charbon"],
           ["an appointment", "un rendez-vous"],
           ["free time", "temps libre"],
           ["a coincidence/fate/luck", "une hasard"],
-          ["sufficient", "suffisant"],
-          ["recommended", "recommand\u00e9"],
           ["take a break", "pause"],
           ["as for", "quant"],
-          ["wet", "mouill\u00e9"],
           ["fishing", "\u00e0 la p\u00eache"],
           ["tie-dye", "teinture au noeud"],
           ["delighted/pleased", "ravie"],
           ["flashes", "clignote"],
           ["police search", "perquisition"],
           ["experienced", "exp\u00e9riment\u00e9"],
-          ["powerful/potent", "puissant"],
-          ["fascinating", "fascinant"],
           ["spread out", "\u00e9tendu"],
           ["welcome", "bienvenue"],
           ["the flavour", "la saveur"],
@@ -400,12 +381,6 @@ nouns = [ ["the coal", "le charbon"],
           ["an egg yolk", "un jaune d'oeuf"],
           ["the egg whites", "les blancs d'oeufs"],
           ["a bouquet garni", "un bouquet garni"],
-          ["home made (m)", "fait maison"],
-          ["home made (f)", "faite maison"],
-          ["golden brown (m)", "dor\u00e9"],
-          ["golden brown (f)", "dor\u00e9e"],
-          ["sweet", "sucr\u00e9"],
-          ["salty", "sal\u00e9"],
           ["the oven", "le four"],
           ["the stovetop", "la plaque chauffante"],
           ["the stove", "la cuisini\u00e8re"],
@@ -447,25 +422,17 @@ nouns = [ ["the coal", "le charbon"],
           ["the golfer (f)", "la golfeuse"],
           ["dating", "sortir avec"],
           ["a hard run", "une course dure"],
-          ["bankrupt", "faillite"],
           ["the small envelope", "la petite enveloppe"],
-          ["proud(m)", "fier"],
-          ["proud(f)", "fi\u00e8re"],
           ["the defect", "le d\u00e9faut"],
-          ["far", "loin"],
-          ["close/near", "pr\u00e8s"],
           ["the small athlete", "le petit athl\u00e8te"],
           ["volunteer (person)", "b\u00e9n\u00e9vole"],
           ["except", "sauf"],
           ["the ticket", "le billet"],
           ["actually", "en r\u00e9alit\u00e9"],
           ["currently", "actuellement"],
-          ["consistent(m)", "constant"],
-          ["consistent(f)", "constante"],
           ["the calculation", "le calcul"],
           ["the big computer", "le gros ordinateur"],
           ["the mud", "la boue"],
-          ["muddy", "boueuse"],
           ["bugs", "insectes"],
           ["breakfast", "petit-d\u00e9jeuner"],
           ["lunch", "d\u00e9jeuner"],
@@ -473,12 +440,7 @@ nouns = [ ["the coal", "le charbon"],
           ["the protein", "la prot\u00e9ine"],
           ["strawberry jam", "confiture de fraises"],
           ["microwave", "micro-ondes"],
-          ["thin", "mince"],
-          ["thick(m)", "\u00e9pais"],
-          ["thick(f)", "\u00e9paisse"],
           ["measurement", "measure"],
-          ["crunchy(m)", "croquant"],
-          ["crunchy(f)", "croquante"],
           ["make the most of/benefit/enjoy", "profiter"],
           ["more/still", "encore"],
           ["exactly/absolutely/totally/just right/all done", "tout \u00e0 fait"],
@@ -491,10 +453,6 @@ nouns = [ ["the coal", "le charbon"],
           ["the wood", "le bois"],
           ["the electrified fence", "la cl\u00f4ture \u00e9lectrifi\u00e9e"],
           ["the deer", "la cerf"],
-          ["high", "haut"],
-          ["low", "bas"],
-          ["short(m)", "court"],
-          ["short(f)", "courte"],
           ["the tulipe", "la tulipe"],
           ["the root", "la racine"],
           ["the small squirrel", "le petit \u00e9cureuil"],
@@ -527,8 +485,6 @@ nouns = [ ["the coal", "le charbon"],
           ["the swiss chard", "la bette \u00e0 carde"],
           ["the frog", "la grenouille"],
           ["a cough", "une toux"],
-          ["complicated(m)", "compliqu\u00e9"],
-          ["complicated(f)", "compliqu\u00e9e"],
           ["what's at stake", "enjeu"],
           ["a beet", "une betterave"],
           ["part/involvement", "implication"],
@@ -541,7 +497,6 @@ nouns = [ ["the coal", "le charbon"],
           ["the bottle", "la bouteille"],
           ["alive", "vivant"],
           ["pattern", "mod\u00e8le"],
-          ["famous", "c\u00e9l\u00e8bre"],
           ["the button", "le bouton"],
           ["a bird", "un oiseau"],
           ["beliefs", "croyances"],
@@ -556,8 +511,6 @@ nouns = [ ["the coal", "le charbon"],
           ["market", "march\u00e9"],
           ["a bin", "un bac"],
           ["the plywood", "le contre-plaqu\u00e9"],
-          ["frustrating", "frustrant"],
-          ["friendly", "amical"],
           ["the lap (body part)", "les genoux"],
           ["the floor", "le plancher"],
           ["the fur", "le fourrure"],
@@ -570,12 +523,7 @@ nouns = [ ["the coal", "le charbon"],
           ["spiderwebs", "les toiles d'araign\u00e9e"],
           ["jack-o-lantern", "citrouille-lanternes"],
           ["the pumpkin", "une citrouille"],
-          ["surprising", "suprenant"],
-          ["surprised(m)", "surpris"],
-          ["surprised(f)", "surprise"],
-          ["responsible", "responsable"],
-          ["curious(m)", "curieux"],
-          ["curious(f)", "curieuse"],
+          ["mainly", "principalement"],
           ["kindergarten", "maternelle"],
           ["elementary school", "\u00e9cole primaire"],
           ["middle school", "\u00e9cole interm\u00e9diaire"],
@@ -583,14 +531,11 @@ nouns = [ ["the coal", "le charbon"],
           ["the candle", "la bougie"],
           ["the candlestick", "la bougeoir"],
           ["the map", "la carte"],
-          ["dry(m)", "sec"],
-          ["dry(f)", "s\u00e8che"],
           ["redneck", "plouc"],
           ["attempted", "tent\u00e9"],
           ["the movie", "le film"],
           ["a suggestion", "une suggestion"],
           ["in fact", "en fait"],
-          ["nice", "joli"],
           ["the contest", "le concours"],
           ["immune system", "syst\u00e8me immunitaire"],
           ["side effects", "effets secondaires"],
@@ -604,19 +549,13 @@ nouns = [ ["the coal", "le charbon"],
           ["since", "car"],
           ["on average", "en moyenne"],
           ["a market share", "une part de march\u00e9"],
-          ["mainly", "principalement"],
           ["mammals", "mammif\u00e8res"],
           ["the goat", "la ch\u00e8vre"],
           ["the cow", "la vache"],
           ["the sheep", "la brebis"],
           ["the buffalo", "la bufflonne"],
           ["the donkey", "l'\u00e2nesse"],
-          ["as much", "autant"],
-          ["noisy(m)", "bruyant"],
-          ["noisy(f)", "bruyante"],
           ["the room", "la salle"],
-          ["empty", "vide"],
-          ["full", "pleine"],
           ["the plain", "la plaine"],
           ["the chest(body)", "la poitrine"],
           ["flat", "plate"],
@@ -624,8 +563,6 @@ nouns = [ ["the coal", "le charbon"],
           ["the left", "la gauche"],
           ["the right (direction)", "la droite"],
           ["a girlfriend", "une copine"],
-          ["never", "jamais"],
-          ["financially", "financi\u00e8rement"],
           ["prejudices", "des pr\u00e9jug\u00e9s"],
           ["a guy", "un gars"],
           ["each", "chaque"],
@@ -635,20 +572,89 @@ nouns = [ ["the coal", "le charbon"],
           ["the brain", "le cerveau"],
           ["a sweater", "un chandail"],
           ["the size", "la grandeur"],
-          ["bright(m)", "lumineux"],
-          ["bright(f)", "lumineuse"],
           ["the furniture", "les meubles"],
           ["the living room", "le salon"],
           ["the kitchen", "la cuisine"],
           ["the retiree(m)", "le retrait\u00e9"],
           ["the retiree(f)", "le retrait\u00e9e"],
           ["the retirees", "les retrait\u00e9s"],
-          ["older/elder", "a\u00een\u00e9"],
           ["a nurse", "une infirmi\u00e8re"],
           ["a doctor", "un docteur"],
           ["a sled", "un tra\u00eeneau"],
           ["a lighthouse", "un phare"],
           ["a patio", "une terrasse"],
+          ]
+
+adjectives = [
+          ["bilingual", "bilingue"],
+          ["deep", "profond"],
+          ["terrifying", "terrifiant"],
+          ["sufficient", "suffisant"],
+          ["recommended", "recommand\u00e9"],
+          ["wet", "mouill\u00e9"],
+          ["powerful/potent", "puissant"],
+          ["fascinating", "fascinant"],
+          ["home made (m)", "fait maison"],
+          ["home made (f)", "faite maison"],
+          ["golden brown (m)", "dor\u00e9"],
+          ["golden brown (f)", "dor\u00e9e"],
+          ["sweet", "sucr\u00e9"],
+          ["salty", "sal\u00e9"],
+          ["bankrupt", "faillite"],
+          ["proud(m)", "fier"],
+          ["proud(f)", "fi\u00e8re"],
+          ["far", "loin"],
+          ["close/near", "pr\u00e8s"],
+          ["consistent(m)", "constant"],
+          ["consistent(f)", "constante"],
+          ["muddy(m)", "boueux"],
+          ["muddy(f)", "boueuse"],
+          ["thin", "mince"],
+          ["thick(m)", "\u00e9pais"],
+          ["thick(f)", "\u00e9paisse"],
+          ["crunchy(m)", "croquant"],
+          ["crunchy(f)", "croquante"],
+          ["high", "haut"],
+          ["low", "bas"],
+          ["short(m)", "court"],
+          ["short(f)", "courte"],
+          ["complicated(m)", "compliqu\u00e9"],
+          ["complicated(f)", "compliqu\u00e9e"],
+          ["famous", "c\u00e9l\u00e8bre"],
+          ["frustrating", "frustrant"],
+          ["friendly", "amical"],
+          ["surprising", "suprenant"],
+          ["surprised(m)", "surpris"],
+          ["surprised(f)", "surprise"],
+          ["responsible", "responsable"],
+          ["curious(m)", "curieux"],
+          ["curious(f)", "curieuse"],
+          ["dry(m)", "sec"],
+          ["dry(f)", "s\u00e8che"],
+          ["nice", "joli"],
+          ["as much", "autant"],
+          ["noisy(m)", "bruyant"],
+          ["noisy(f)", "bruyante"],
+          ["empty", "vide"],
+          ["full", "pleine"],
+          ["never", "jamais"],
+          ["financially", "financi\u00e8rement"],
+          ["bright(m)", "lumineux"],
+          ["bright(f)", "lumineuse"],
+          ["older/elder", "a\u00een\u00e9"],
+          ["early", "t\u00F4t"],
+          ["late", "tard"],
+          ["mechanical", "m\u00E9canique"],
+          ["similar", "similaire"],
+          ["first", "en premier"],
+          ["secondly", "deuxi\u00e8mement"],
+          ["hard (m)", "dur"],
+          ["hard (f)", "dure"],
+          ["soft(m)", "doux"],
+          ["soft(f)", "douce"],
+          ["useful", "utile"],
+          ["single (not married)", "c\u00e9libataire"],
+          ["the same as", "pareil"],
           ["often", "souvent"],
           ["always", "toujours"],
           ["rarely", "rarement"],
@@ -1481,8 +1487,11 @@ passe_compose_verbs = [
 
 class run_vocab_drill(object):
     def __init__(self, options):
-        self.nouns = vocab_drill("Nouns, adjectives, adverbs", nouns)
+        self.nouns = vocab_drill("Nouns", nouns)
+        self.adjectives = vocab_drill("Adjectives", adjectives)
         self.phrases = vocab_drill("Phrases", phrases)
+        self.contractions = vocab_drill("Contractions",
+                                         contractions)
         self.verbs = vocab_drill("Verbs", verbs)
         self.present_verbs = vocab_drill("Present verbs",
                                           present_verbs)
@@ -1490,15 +1499,17 @@ class run_vocab_drill(object):
                                             imparfait_verbs)
         self.futur_simple_verbs = vocab_drill("Futur simple verbs",
                                                futur_simple_verbs)
-        self.contractions = vocab_drill("Contractions",
-                                         contractions)
         self.passe_compose_verbs = vocab_drill("Passe compose verbs",
                                                 passe_compose_verbs)
         self.drills = []
-        if options.general_vocab:
+        if options.nouns:
             self.drills.append(self.nouns)
+        if options.adjectives:
+            self.drills.append(self.adjectives)
         if options.phrases:
             self.drills.append(self.phrases)
+        if options.contractions:
+            self.drills.append(self.contractions)
         if options.verbs:
             self.drills.append(self.verbs)
         if options.present_tense:
@@ -1509,8 +1520,6 @@ class run_vocab_drill(object):
             self.drills.append(self.futur_simple_verbs)
         if options.passe_compose:
             self.drills.append(self.passe_compose_verbs)
-        if options.contractions:
-            self.drills.append(self.contractions)
         self.sample_size = options.sample_size
 
     def run_drill(self):
@@ -1528,13 +1537,19 @@ class run_vocab_drill(object):
                         % drill_count)
 
 def create_parser():
-    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 random questions in every area.  The order of the areas is randomized.  All questions for an area must be answered correctly before the next area is started. Enter 'DROP IT' to drop a question. Enter 'Stop' or CTRL<D> to exit the drill.")
-    parser.add_option("-g", "--general",
-                      action="store_true", dest="general_vocab", default=False,
-                      help="general vocabulary (nouns, adjectives)")
+    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 questions selected at random in every subject.  The order of the subjects is randomized.  All questions for a subject must be answered correctly before the next subject is started. Enter 'DROP IT' to drop a question. Enter 'Stop' or CTRL<D> to exit the drill.")
+    parser.add_option("-n", "--nouns",
+                      action="store_true", dest="nouns", default=False,
+                      help="nouns")
+    parser.add_option("-a", "--adjectives",
+                      action="store_true", dest="adjectives", default=False,
+                      help="check vocabulary of french adjectives")
     parser.add_option("-P", "--phrases",
                       action="store_true", dest="phrases", default=False,
                       help="short french phrases")
+    parser.add_option("-C", "--contractions",
+                      action="store_true", dest="contractions", default=False,
+                      help="check vocabulary of french contractions")
     parser.add_option("-v", "--verbs",
                       action="store_true", dest="verbs", default=False,
                       help="verbs infinitif")
@@ -1550,27 +1565,31 @@ def create_parser():
     parser.add_option("-c", "--passe_compose",
                       action="store_true", dest="passe_compose", default=False,
                       help="conjugate verbs in passe compose")
-    parser.add_option("-C", "--contractions",
-                      action="store_true", dest="contractions", default=False,
-                      help="check vocabulary of french contractions")
     parser.add_option("-s", "--sample_size", type="int",
                       dest="sample_size", default=5,
-                      help="set sample size for each test")
+                      help="set number of questions for each area")
     return parser
 
 def check_options(options):
-    if (not options.present_tense and not options.futur_simple and
-        not options.imparfait_tense and not options.passe_compose and
-        not options.general_vocab and not options.contractions and
-        not options.verbs and not options.phrases):
-        options.general_vocab = True
+    if (    not options.nouns
+        and not options.adjectives
+        and not options.phrases
+        and not options.contractions
+        and not options.verbs
+        and not options.present_tense
+        and not options.futur_simple
+        and not options.imparfait_tense
+        and not options.passe_compose):
+
+        options.nouns = True
+        options.adjectives = True
         options.phrases = True
+        options.contractions = True
         options.verbs = True
         options.present_tense = True
         options.futur_simple = True
         options.imparfait_tense = True
         options.passe_compose = True
-        options.contractions = True
     else:
        # If at least one tense was requested,
        # set the default sample size is check all verbs for each tense.
