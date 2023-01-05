@@ -17,6 +17,32 @@ class vocab_drill(object):
     def __init__(self, lable, tests):
         self.vocab_name = lable
         self.vocab_array = tests
+        self.special_chars = [ ["/\\a", "\u00E2"], # a circumflex
+                               [  "/a", "\u00E1"], # a accent ague
+                               [ "\\a", "\u00E0"], # a accent grave
+                               [ "\/c", "\u00E7"], # c cedilla
+                               ["/\\e", "\u00EA"], # e circumflex
+                               [  "/e", "\u00E9"], # e accent ague
+                               [ "\\e", "\u00E8"], # e accent grave
+                               ["/\\i", "\u00EE"], # i circumflex
+                               [  "/i", "\u00ED"], # i accent ague
+                               [ "\\i", "\u00EC"], # i accent grave
+                               ["/\\o", "\u00F4"], # o circumflex
+                               [  "/o", "\u00F3"], # o accent ague
+                               [ "\\o", "\u00F2"], # o accent grave
+                               ["/\\u", "\u00FB"], # u circumflex
+                               [  "/u", "\u00FA"], # u accent ague
+                               [ "\\u", "\u00F9"], # u accent grave
+                               ]
+
+    def convert_response(self, raw_response):
+        response = raw_response
+        for old, new_str in self.special_chars:
+            response = response.replace(old, new_str)
+        return response
+
+    def special_chars_list(self):
+        return [spec_char[1] for spec_char in self.special_chars]
 
     def run_drill(self, test_count):
         continue_test = True
@@ -30,17 +56,20 @@ class vocab_drill(object):
         while response != "Stop" and index < len(v_choices):
             try:
                 print("\nTest: %s" % self.vocab_name)
-                print("Special chars: \u00E0 \u00E1 \u00E2 \u00E7 \u00E8 \u00E9 \u00EA \u00EC \u00ED \u00EE \u00F2 \u00F3 \u00F4 \u00f9 \u00fa \u00fb")
+                print("Special chars: %s" % " ".join(self.special_chars_list()))
                 v_choice = v_choices[index]
                 index = index + 1
-                response = input(("French for '%s': " % v_choice[0]))
+                raw_response = input(("French   for '%s': " % v_choice[0]))
+                response = self.convert_response(raw_response)
+                if (not raw_response == response):
+                    print ("Response for '%s': %s" % (v_choice[0], response))
                 if (response == "Stop"):
                     continue_test = False
                     break;
                 elif (response == v_choice[1]) or (response == "DROP IT"):
                     print ("Correct!")
                 else:
-                    print ("Answer for '%s': %s" % (v_choice[0], v_choice[1]))
+                    print ("Answer   for '%s': %s" % (v_choice[0], v_choice[1]))
                     v_choices.append(v_choice)
             except KeyboardInterrupt as KI:
                 print("\nExiting...")
@@ -1565,7 +1594,7 @@ class run_vocab_drill(object):
                         % drill_count)
 
 def create_parser():
-    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 questions selected at random in every subject.  The order of the subjects is randomized.  All questions for a subject must be answered correctly before the next subject is started. Enter 'DROP IT' to drop a question. Enter 'Stop' or CTRL<D> to exit the drill.")
+    parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 questions selected at random in every subject.  The order of the subjects is randomized.  All questions for a subject must be answered correctly before the next subject is started. Enter 'DROP IT' to drop a question. Enter 'Stop' or CTRL<D> to exit the drill. Special characters may be cut and pasted, or the following notation can be used: '/' for accent ague, '\\' for accent grave, '/\\' for circumflex, and '\\/' for cedilla")
     parser.add_option("-n", "--nouns",
                       action="store_true", dest="nouns", default=False,
                       help="nouns")
