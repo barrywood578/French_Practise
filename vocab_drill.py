@@ -188,7 +188,7 @@ phrases = [
           ["for what you get", "pour ce que vous obtenez"],
           ["give me back my toy", "rends-moi mon jouet"],
           ["last Saturday", "samedi dernier"],
-          ["ready for them", "fraiment pour eax"],
+          ["ready for them", "fraiment pour eux"],
           ["when he takes the shot", "quand il tire"],
           ["I did not catch the words", "je n'ai pas saisi les mots"],
           ["I didn't think about", "je n'ai pas pens\u00e9"],
