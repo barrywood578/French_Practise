@@ -1031,6 +1031,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all remember", "vous vous souvienez"],
                   ["they(m) remember", "ils se souvienent"],
                   ["they(f) remember", "elles se souvienent"],
+                  ["I spread", "j'\u00e9tale"],
+                  ["you spread", "tu \u00e9tales"],
+                  ["he spreads", "il \u00e9tale"],
+                  ["she spreads", "elle \u00e9tale"],
+                  ["we spread", "nous \u00e9talons"],
+                  ["y'all spread", "vous \u00e9talez"],
+                  ["they(m) spread", "ils \u00e9talent"],
+                  ["they(f) spread", "elles \u00e9talent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1217,6 +1225,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all remembered", "vous vous souveniez"],
                     ["they(m) remembered", "ils se souvenaient"],
                     ["they(f) remembered", "elles se souvenaient"],
+                    ["I spread", "je \u00e9talais"],
+                    ["you spread", "tu \u00e9talais"],
+                    ["he spread", "il \u00e9talait"],
+                    ["she spread", "elle \u00e9talait"],
+                    ["we spread", "nous \u00e9talions"],
+                    ["y'all spread", "vous \u00e9taliez"],
+                    ["they(m) spread", "ils \u00e9talaient"],
+                    ["they(f) spread", "elles \u00e9talaient"],
                   ]
 
 futur_simple_verbs = [
@@ -1404,6 +1420,14 @@ futur_simple_verbs = [
                     ["y'all will remember", "vous vous souviendrez"],
                     ["they(m) will remember", "ils se souviendront"],
                     ["they(f) will remember", "elles se souviendront"],
+                    ["I will spread", "j'\u00e9talerai"],
+                    ["you will spread", "tu \u00e9taleras"],
+                    ["he will spread", "il \u00e9talera"],
+                    ["she will spread", "elle \u00e9talera"],
+                    ["we will spread", "nous \u00e9talerons"],
+                    ["y'all will spread", "vous \u00e9talerez"],
+                    ["they(m) will spread", "ils \u00e9taleront"],
+                    ["they(f) will spread", "elles \u00e9taleront"],
                   ]
 
 passe_compose_verbs = [
@@ -1612,6 +1636,14 @@ passe_compose_verbs = [
                     ["we remembered(f)", "nous nous sommes souvenues"],
                     ["y'all remembered(f)", "vous vous /u00eates souvenues"],
                     ["they(f) remembered(f)", "elles se sont souvenues"],
+                    ["I spread", "j'ai \u00e9tal\u00e9"],
+                    ["you spread", "tu as \u00e9tal\u00e9"],
+                    ["he spread", "il a \u00e9tal\u00e9"],
+                    ["she spread", "elle a \u00e9tal\u00e9"],
+                    ["we spread", "nous avons \u00e9tal\u00e9"],
+                    ["y'all spread", "vous avez \u00e9tal\u00e9"],
+                    ["they(m) spread", "ils ont \u00e9tal\u00e9"],
+                    ["they(f) spread", "elles ont \u00e9tal\u00e9"],
                   ]
 
 
