@@ -85,6 +85,9 @@ class vocab_drill(object):
 
 phrases = [
           ["but their commitment is admirable", "mais leur engagement est admirable"],
+          ["to get good grades", "avoir de bonnes notes"],
+          ["to be bad at", "\u00eatre poche en"],
+          ["physical education", "l'\u00e9ducation physique"],
           ["anyway", "en tous cas"],
           ["in any case", "dans tous les cas"],
           ["after every question", "apr\u00e8s chaque question"],
