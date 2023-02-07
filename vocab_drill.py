@@ -11,7 +11,8 @@ import sys
 import os
 import logging
 import random
-from datetime import datetime, timezone
+from datetime import datetime, timedelta
+import math
 
 class vocab_drill(object):
     def __init__(self, lable, tests):
@@ -1741,6 +1742,7 @@ class run_vocab_drill(object):
         drill_count = 0
         continue_drill = True
         while (continue_drill):
+            start_time = datetime.now()
             drill_types = random.sample(self.drills, len(self.drills))
             for drill_type in drill_types:
                 continue_drill = drill_type.run_drill(self.sample_size)
@@ -1748,8 +1750,12 @@ class run_vocab_drill(object):
                     break
             if continue_drill:
                 drill_count = drill_count + 1
-                print("\n***>>> Completed all drills for round %d. <<<***\n"
+                print("\n***>>> Completed all drills for round %d. <<<***"
                         % drill_count)
+                end_time = datetime.now()
+                total_secs = math.ceil((end_time-start_time).total_seconds())
+                duration = timedelta(seconds=total_secs)
+                print("Elapsed time: %s\n" % (str(duration)))
 
 def create_parser():
     parser = OptionParser(description="French vocabulary and verb conjugation drill.  Default settings ask 5 questions selected at random in every subject.  The order of the subjects is randomized.  All questions for a subject must be answered correctly before the next subject is started. Enter 'DROP IT' to drop a question. Enter 'Stop' or CTRL<D> to exit the drill. Special characters may be cut and pasted, or the following notation can be used: '/' for accent ague, '\\' for accent grave, '/\\' for circumflex, and '\\/' for cedilla")
