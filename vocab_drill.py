@@ -293,6 +293,7 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the bottom", "le fond"],
           ["the bridge", "le pont"],
           ["the cement", "le ciment"],
           ["the flyash", "les cendres volantes"],
