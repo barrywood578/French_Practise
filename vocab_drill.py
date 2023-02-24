@@ -87,6 +87,9 @@ class vocab_drill(object):
 phrases = [
           ["but their commitment is admirable", "mais leur engagement est admirable"],
           ["fantasy and science fiction stories", "histoires fantastiques et de science-fiction"],
+          ["the manager sits", "le directeur est assis"],
+          ["the building I visited", "l'\u00e9difice que j'ai visit\u00e9"],
+          ["it is known as a prison", "c'est connu comme une prison"],
           ["the fresh strawberries and cream", "les fraises fra\u00eeches et la cr\u00e8me"],
           ["to get good grades", "avoir de bonnes notes"],
           ["to be bad at", "\u00eatre poche en"],
@@ -297,8 +300,14 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the navy", "la marine"],
+          ["the cost", "le co\u00fbt"],
           ["hunter(m)", "chausseur"],
           ["hunter(f)", "chausseuse"],
+          ["the ant", "la fourmi"],
+          ["Germany", "Allemagne"],
+          ["the tap", "le robinet"],
+          ["the impact", "l'impact"],
           ["the bad guy", "le m\u00e9chant"],
           ["the earthquake", "le s\u00e9isme"],
           ["the saying", "le dicton"],
@@ -743,6 +752,10 @@ nouns = [ ["the coal", "le charbon"],
 
 adjectives = [
           ["bilingual", "bilingue"],
+          ["successful(f)", "r\u00e9ussie"],
+          ["successful(m)", "r\u00e9ussi"],
+          ["ruined(f)", "ruin\u00e9e"],
+          ["ruined(m)", "ruin\u00e9"],
           ["the oldest", "le plus vieux"],
           ["extinct(m)", "\u00e9teint"],
           ["extinct(f)", "\u00e9teinte"],
@@ -831,6 +844,7 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to construct", "construire"],
           ["to describe", "d\u00e9crire"],
           ["to say", "dire"],
           ["to write", "\u00e9crire"],
