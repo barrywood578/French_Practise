@@ -873,6 +873,7 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to jam/stick", "coincer"],
           ["to remember", "se souvenir"],
           ["to weave", "tisser"],
           ["to extend (space)", "agrandir"],
@@ -1263,6 +1264,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all construct", "vous construisez"],
                   ["they(m) construct", "ils construisent"],
                   ["they(f) construct", "elles construisent"],
+                  ["I jam", "je coince"],
+                  ["you jam", "tu coinces"],
+                  ["he jams", "il coince"],
+                  ["she jams", "elle coince"],
+                  ["we jam", "nous coin\u00e7ons"],
+                  ["y'all jam", "vous coincez"],
+                  ["they(m) jam", "ils coincent"],
+                  ["they(f) jam", "elles coincent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1505,6 +1514,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all constructed", "vous construisiez"],
                     ["they(m) constructed", "ils construisaient"],
                     ["they(f) constructed", "elles construisaient"],
+                    ["I jammed", "je coin\u00e7ais"],
+                    ["you jammed", "tu coin\u00e7ais"],
+                    ["he jammed", "il coin\u00e7ait"],
+                    ["she jammed", "elle coin\u00e7ait"],
+                    ["we jammed", "nous coincions"],
+                    ["y'all jammed", "vous coinciez"],
+                    ["they(m) jammed", "ils coin\u00e7aient"],
+                    ["they(f) jammed", "elles coin\u00e7aient"],
                   ]
 
 futur_simple_verbs = [
@@ -1748,6 +1765,14 @@ futur_simple_verbs = [
                     ["y'all will construct", "vous construirez"],
                     ["they(m) will construct", "ils construiront"],
                     ["they(f) will construct", "elles construiront"],
+                    ["I will jam", "je coincerai"],
+                    ["you will jam", "tu coinceras"],
+                    ["he will jam", "il coincera"],
+                    ["she will jam", "elle coincera"],
+                    ["we will jam", "nous coincerons"],
+                    ["y'all will jam", "vous coincerez"],
+                    ["they(m) will jam", "ils coinceront"],
+                    ["they(f) will jam", "elles coinceront"],
                   ]
 
 passe_compose_verbs = [
@@ -2012,6 +2037,14 @@ passe_compose_verbs = [
                     ["y'all constructed", "vous avez construit"],
                     ["they(m) constructed", "ils ont construit"],
                     ["they(f) constructed", "elles ont construit"],
+                    ["I jammed", "j'ai coinc\00e9"],
+                    ["you jammed", "tu as coinc\00e9"],
+                    ["he jammed", "il a coinc\00e9"],
+                    ["she jammed", "elle a coinc\00e9"],
+                    ["we jammed", "nous avons coinc\00e9"],
+                    ["y'all jammed", "vous avez coinc\00e9"],
+                    ["they(m) jammed", "ils ont coinc\00e9"],
+                    ["they(f) jammed", "elles ont coinc\00e9"],
                   ]
 
 
