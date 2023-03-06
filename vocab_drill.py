@@ -86,6 +86,10 @@ class vocab_drill(object):
 
 phrases = [
           ["but their commitment is admirable", "mais leur engagement est admirable"],
+          ["the pain and injuries", "la douleur et les blessures"],
+          ["bucket list", "liste de seaux"],
+          ["my joint hurts", "mon articulation me fait mal"],
+          ["bad health", "mauvaise sant\u00e9"],
           ["Barry is a finicky eater", "Barry fait la fine bouche"],
           ["a very busy vacation", "des vacances tr\u00e8s charg\u00e9es"],
           ["I had to decide which places to go", "j'ai d\u00fb d\u00e9cider quels endroits aller"],
@@ -307,6 +311,16 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the big uniform", "le grand uniforme"],
+          ["the neighbourhood", "le quartier"],
+          ["the membership", "l'adh\u00e9sion"],
+          ["the horse", "le cheval"],
+          ["the small mistake", "la petite erreur"],
+          ["the operation", "la petite op\u00e9ration"],
+          ["the toes", "les orteils"],
+          ["the toe", "le doigt de pied"],
+          ["the arthritis", "l'arthrite"],
+          ["the rewards", "les r\u00e9compenses"],
           ["the navy", "la marine"],
           ["glass (material)", "glass"],
           ["the cable", "le c\u00e2ble"],
@@ -776,6 +790,7 @@ nouns = [ ["the coal", "le charbon"],
 
 adjectives = [
           ["bilingual", "bilingue"],
+          ["previously", "pr\u00e9c\u00e9demment"],
           ["wide", "large"],
           ["adhesive(f)", "adh\u00e9sive"],
           ["adhesive(m)", "adh\u00e9sif"],
@@ -873,6 +888,10 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to hire", "embaucher"],
+          ["to operate", "op\u00e9rer"],
+          ["to bend", "plier"],
+          ["to fuse", "fusionner"],
           ["to jam/stick", "coincer"],
           ["to remember", "se souvenir"],
           ["to weave", "tisser"],
