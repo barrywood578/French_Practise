@@ -150,7 +150,7 @@ phrases = [
           ["the mountains were dispersed", "les montagnes \u00e9taient dispers\u00e9es"],
           ["we hired an instructor (passe compose)", "nous avons embouch\u00e9 un instructeur"],
           ["the first thing he showed us", "la premiere chose qu'il nous a montr\u00e9"],
-          ["it helped me", "\u00e7a m'a aid\u00e9"],
+          ["it helped me (passe compose)", "\u00e7a m'a aid\u00e9"],
           ["for an actual game", "pour un vrai joue"],
           ["when we flew to Las Vegas (passe compose)", "quand nous avons vol\u00e9 en Las Vegas"],
           ["cheap", "bon march\u00e9"],
