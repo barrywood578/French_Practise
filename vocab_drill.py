@@ -86,6 +86,16 @@ class vocab_drill(object):
 
 phrases = [
           ["but their commitment is admirable", "mais leur engagement est admirable"],
+          ["I have many routes of different lengths",
+           "j'ai beaucoup d'intin\u00e9raires de diff\u00e9rentes longueurs"],
+          ["the elevation profile", "le profil d'\u00e9l\u00e9vation"],
+          ["the big shoulder of the road", "le grand accotement de la route"],
+          ["starting off I felt ok", "au d\u00e9part me me sentais bien"],
+          ["suit and tie", "costume cravate"],
+          ["pain in the ass", "douleur dans le cul"],
+          ["good at commanding", "dou\u00e9 pour commander"],
+          ["leverages common interests",
+           "exploite les int\u00e9r\u00eats communs"],
           ["the pain and injuries", "la douleur et les blessures"],
           ["bucket list", "liste de seaux"],
           ["my joint hurts", "mon articulation me fait mal"],
@@ -310,6 +320,13 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the smartwatch", "la montre intelligente"],
+          ["the pace", "le rythme"],
+          ["the fireplace", "la chimin\u00e9e"],
+          ["the talent", "le talent"],
+          ["the baseboard", "la plinthe"],
+          ["the sidewalk", "le trotoir"],
+          ["the networker", "le r\u00e9seauteur"],
           ["the big uniform", "le grand uniforme"],
           ["the neighbourhood", "le quartier"],
           ["the membership", "l'adh\u00e9sion"],
@@ -789,6 +806,14 @@ nouns = [ ["the coal", "le charbon"],
 
 adjectives = [
           ["bilingual", "bilingue"],
+          ["approximately", "environ"],
+          ["nauseous(m)", "naus\u00e9eux"],
+          ["nauseous(f)", "naus\u00e9euse"],
+          ["weak", "faible"],
+          ["mentally", "mentalement"],
+          ["spriritually", "spirituellement"],
+          ["resourceful(m)", "ing\u00e9nieux"],
+          ["resourceful(f)", "ing\u00e9nieuse"],
           ["previously", "pr\u00e9c\u00e9demment"],
           ["wide", "large"],
           ["adhesive(f)", "adh\u00e9sive"],
@@ -806,7 +831,8 @@ adjectives = [
           ["straight(f)", "droite"],
           ["tall(m)", "grand"],
           ["tall(f)", "grande"],
-          ["deep", "profond"],
+          ["deep(m)", "profond"],
+          ["deep(f)", "profonde"],
           ["terrifying", "terrifiant"],
           ["sufficient", "suffisant"],
           ["recommended", "recommand\u00e9"],
@@ -886,6 +912,7 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["released (in the context of a movie)", "\u00eatre sortir"],
           ["to hire", "embaucher"],
           ["to operate", "op\u00e9rer"],
           ["to bend", "plier"],
