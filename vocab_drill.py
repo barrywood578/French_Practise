@@ -2185,6 +2185,7 @@ class run_vocab_drill(object):
         if options.passe_compose:
             self.drills.append(self.passe_compose_verbs)
         self.sample_size = options.sample_size
+        random.seed()
 
     def run_drill(self):
         drill_count = 0
