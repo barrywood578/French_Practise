@@ -85,6 +85,11 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["step by step", "pas \u00e0 pas"],
+          ["birth place", "lieu de naissance"],
+          ["at the expense of his health",
+           "au d\u00e9triment de la sant\u00e9"],
+          ["gain it back", "le r\u00e9cup\u00e9rer"],
           ["but their commitment is admirable", "mais leur engagement est admirable"],
           ["I have many routes of different lengths",
            "j'ai beaucoup d'intin\u00e9raires de diff\u00e9rentes longueurs"],
@@ -320,8 +325,19 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the customers(m)", "les clients"],
+          ["the customers(f)", "les clientes"],
+          ["the beautiful architecture", "la belle architecture"],
+          ["Sweden", "Su\u00e8de"],
+          ["South Korea", "Cor\u00e9e du Sud"],
+          ["the roof", "le toit"],
+          ["the heights", "les hauteurs"],
+          ["the shortage", "la p\u00e9nurie"],
+          ["the diet", "le r\u00e9gime"],
           ["the smartwatch", "la montre intelligente"],
           ["the pace", "le rythme"],
+          ["the fireplace", "la chimin\u00e9e"],
+          ["the chimney", "la chimin\u00e9e"],
           ["the fireplace", "la chimin\u00e9e"],
           ["the talent", "le talent"],
           ["the baseboard", "la plinthe"],
@@ -805,6 +821,16 @@ nouns = [ ["the coal", "le charbon"],
           ]
 
 adjectives = [
+          ["daily(m)", "quotidien"],
+          ["daily(f)", "quotidienne"],
+          ["trustworthy", "fiable"],
+          ["expected(m)", "attendu"],
+          ["expected(f)", "attendue"],
+          ["fatty/greasy(m)", "graisseux"],
+          ["fatty/greasy(f)", "graisseuse"],
+          ["humbling", "humiliation"],
+          ["grateful(m)", "reconnaissant"],
+          ["grateful(f)", "reconnaissante"],
           ["bilingual", "bilingue"],
           ["approximately", "environ"],
           ["nauseous(m)", "naus\u00e9eux"],
@@ -912,6 +938,9 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to taper", "diminuer"],
+          ["to surround", "entourer"],
+          ["to be away", "\u00eatre ailleurs"],
           ["released (in the context of a movie)", "\u00eatre sortir"],
           ["to hire", "embaucher"],
           ["to operate", "op\u00e9rer"],
