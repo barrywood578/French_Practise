@@ -948,6 +948,7 @@ adjectives = [
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
           ["to taper", "diminuer"],
+          ["to stretch", "\u00e9tirer"],
           ["to surround", "entourer"],
           ["to be away", "\u00eatre ailleurs"],
           ["released (in the context of a movie)", "\u00eatre sortir"],
@@ -1381,6 +1382,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all jam", "vous coincez"],
                   ["they(m) jam", "ils coincent"],
                   ["they(f) jam", "elles coincent"],
+                  ["I stretch", "j'\u00e9tire"],
+                  ["you stretch", "tu \u00e9tires"],
+                  ["he stretchs", "il \u00e9tire"],
+                  ["she stretchs", "elle \u00e9tire"],
+                  ["we stretch", "nous \u00e9tirons"],
+                  ["y'all stretch", "vous \u00e9tirez"],
+                  ["they(m) stretch", "ils \u00e9tirent"],
+                  ["they(f) stretch", "elles \u00e9tirent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1631,6 +1640,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all jammed", "vous coinciez"],
                     ["they(m) jammed", "ils coin\u00e7aient"],
                     ["they(f) jammed", "elles coin\u00e7aient"],
+                    ["I stretched", "j'\u00e9tirais"],
+                    ["you stretched", "tu \u00e9tirais"],
+                    ["he stretched", "il \u00e9tirait"],
+                    ["she stretched", "elle \u00e9tirait"],
+                    ["we stretched", "nous \u00e9tirions"],
+                    ["y'all stretched", "vous \u00e9tiriez"],
+                    ["they(m) stretched", "ils \u00e9tiraient"],
+                    ["they(f) stretched", "elles \u00e9tiraient"],
                   ]
 
 futur_simple_verbs = [
@@ -1882,6 +1899,14 @@ futur_simple_verbs = [
                     ["y'all will jam", "vous coincerez"],
                     ["they(m) will jam", "ils coinceront"],
                     ["they(f) will jam", "elles coinceront"],
+                    ["I will stretch", "j'\u00e9tirerai"],
+                    ["you will stretch", "tu \u00e9tireras"],
+                    ["he will stretch", "il \u00e9tirera"],
+                    ["she will stretch", "elle \u00e9tirera"],
+                    ["we will stretch", "nous \u00e9tirerons"],
+                    ["y'all will stretch", "vous \u00e9tirerez"],
+                    ["they(m) will stretch", "ils \u00e9tireront"],
+                    ["they(f) will stretch", "elles \u00e9tireront"],
                   ]
 
 passe_compose_verbs = [
@@ -2154,6 +2179,14 @@ passe_compose_verbs = [
                     ["y'all jammed", "vous avez coinc\u00e9"],
                     ["they(m) jammed", "ils ont coinc\u00e9"],
                     ["they(f) jammed", "elles ont coinc\u00e9"],
+                    ["I stretched", "j'ai \u00e9tir\u00e9"],
+                    ["you stretched", "tu as \u00e9tir\u00e9"],
+                    ["he stretched", "il a \u00e9tir\u00e9"],
+                    ["she stretched", "elle a \u00e9tir\u00e9"],
+                    ["we stretched", "nous avons \u00e9tir\u00e9"],
+                    ["y'all stretched", "vous avez \u00e9tir\u00e9"],
+                    ["they(m) stretched", "ils ont \u00e9tir\u00e9"],
+                    ["they(f) stretched", "elles ont \u00e9tir\u00e9"],
                   ]
 
 
