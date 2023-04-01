@@ -86,6 +86,8 @@ class vocab_drill(object):
 
 phrases = [
           ["step by step", "pas \u00e0 pas"],
+          ["take the first step", "faire le premier pas"],
+          ["fast enough", "suffisamment rapide"],
           ["birth place", "lieu de naissance"],
           ["at the expense of his health",
            "au d\u00e9triment de la sant\u00e9"],
@@ -133,6 +135,7 @@ phrases = [
           ["to wear a thin jacket", "porter une veste fine"],
           ["wear shorts", "porter des shorts"],
           ["I take care of myself", "je prends soin de moi"],
+          ["I need to take care of myself", "je dois prendre soin de moi"],
           ["it is not the same", "ce n'est pas pareil"],
           ["to get rid of", "se d\u00e9barrasser de"],
           ["to come back into fashion", "revenir \u00e0 la mode"],
@@ -261,6 +264,7 @@ phrases = [
            "l'intention \u00e9tait de faire un tour de la c\u00f4te Est avec eux"],
           ["He plays golf very well", "Il joue tr\u00e8s bien au golf"],
           ["I could not run uphill", "je ne pouvais pas courir en mont\u00e9e"],
+          ["I ran uphill (passe compose)", "j'ai couru en mont\u00e9e"],
           ["I will train with weights (futur simple)", "je m'entra\u00eenerai avec des poids"],
           ["we played golf (imparfait)", "nous jouions du golf"],
           ["I had a massage (passe compose)", "j'ai eu un massage"],
@@ -325,6 +329,9 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["recovery", "r\u00e9cup\u00e9ration"],
+          ["the kidney", "le rein"],
+          ["the step", "le pas"],
           ["tail wind", "vent arriere"],
           ["head wind", "vent de face"],
           ["Achilles tendon", "tendon d'Achille"],
@@ -826,6 +833,7 @@ nouns = [ ["the coal", "le charbon"],
 adjectives = [
           ["daily(m)", "quotidien"],
           ["daily(f)", "quotidienne"],
+          ["funny", "dr\u00f4le"],
           ["quite", "assez"],
           ["enough", "assez"],
           ["rather", "assez"],
