@@ -321,7 +321,7 @@ phrases = [
           ["he retired", "il a pris sa retraite"],
           ["last year", "l'ann\u00e9e derni\u00e8re"],
           ["stuck in the elevator", "coinc\u00e9 dans l'ascenseur"],
-          ["I wear tights", "je porte des collantes"],
+          ["I wear tights", "je porte des collants"],
           ["you can go straight through", "tu peux passer tout droit"],
           ["primary character", "personnage principal"],
           ["the shipping container", "le conteneur d'exp\u00e9dition"],
@@ -955,6 +955,7 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to care", "soucier"],
           ["to taper", "diminuer"],
           ["to stretch", "\u00e9tirer"],
           ["to surround", "entourer"],
@@ -1398,6 +1399,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all stretch", "vous \u00e9tirez"],
                   ["they(m) stretch", "ils \u00e9tirent"],
                   ["they(f) stretch", "elles \u00e9tirent"],
+                  ["I care", "je soucie"],
+                  ["you care", "tu soucies"],
+                  ["he cares", "il soucie"],
+                  ["she cares", "elle soucie"],
+                  ["we care", "nous soucions"],
+                  ["y'all care", "vous souciez"],
+                  ["they(m) care", "ils soucient"],
+                  ["they(f) care", "elles soucient"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1656,6 +1665,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all stretched", "vous \u00e9tiriez"],
                     ["they(m) stretched", "ils \u00e9tiraient"],
                     ["they(f) stretched", "elles \u00e9tiraient"],
+                    ["I cared", "je souciais"],
+                    ["you cared", "tu souciais"],
+                    ["he cared", "il souciait"],
+                    ["she cared", "elle souciait"],
+                    ["we cared", "nous souciions"],
+                    ["y'all cared", "vous souciiez"],
+                    ["they(m) cared", "ils souciaient"],
+                    ["they(f) cared", "elles souciaient"],
                   ]
 
 futur_simple_verbs = [
@@ -1915,6 +1932,14 @@ futur_simple_verbs = [
                     ["y'all will stretch", "vous \u00e9tirerez"],
                     ["they(m) will stretch", "ils \u00e9tireront"],
                     ["they(f) will stretch", "elles \u00e9tireront"],
+                    ["I will care", "je soucierai"],
+                    ["you will care", "tu soucieras"],
+                    ["he will care", "il souciera"],
+                    ["she will care", "elle souciera"],
+                    ["we will care", "nous soucierons"],
+                    ["y'all will care", "vous soucierez"],
+                    ["they(m) will care", "ils soucieront"],
+                    ["they(f) will care", "elles soucieront"],
                   ]
 
 passe_compose_verbs = [
@@ -2195,6 +2220,14 @@ passe_compose_verbs = [
                     ["y'all stretched", "vous avez \u00e9tir\u00e9"],
                     ["they(m) stretched", "ils ont \u00e9tir\u00e9"],
                     ["they(f) stretched", "elles ont \u00e9tir\u00e9"],
+                    ["I cared", "j'ai souci\u00e9"],
+                    ["you cared", "tu as souci\u00e9"],
+                    ["he cared", "il a souci\u00e9"],
+                    ["she cared", "elle a souci\u00e9"],
+                    ["we cared", "nous avons souci\u00e9"],
+                    ["y'all cared", "vous avez souci\u00e9"],
+                    ["they(m) cared", "ils ont souci\u00e9"],
+                    ["they(f) cared", "elles ont souci\u00e9"],
                   ]
 
 
