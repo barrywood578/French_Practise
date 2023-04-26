@@ -296,7 +296,7 @@ phrases = [
           ["as soon as", "des que"],
           ["it was really cold", "il faisait vraiment froid"],
           ["it was worth it", "\u00e7a en vaut la peine"],
-          ["one day at the beginning", "un jour au debut"],
+          ["one day at the beginning", "un jour au d\u00e9but"],
           ["first of all", "tout d'abord"],
           ["at race pace", "au rythme de la course"],
           ["a car dealership", "un concessionnaire automobile"],
@@ -329,6 +329,9 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the bucket", "le seau"],
+          ["the dash/hyphen", "le tiret"],
+          ["the underscore", "le tiret bas"],
           ["elsewhere", "ailleurs"],
           ["recovery", "r\u00e9cup\u00e9ration"],
           ["the kidney", "le rein"],
