@@ -381,6 +381,11 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the task", "la t\u00e2che"],
+          ["the scorecard", "le tableau d bord"],
+          ["the instructions", "les instructions"],
+          ["the meaning", "la signification"],
+          ["the bagpipes", "la cornemuse"],
           ["the t-shirt", "le t-shirt"],
           ["the hoodie", "le sweat \u00e0 capuche"],
           ["the jeans", "le jean"],
@@ -1047,6 +1052,7 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to last/endure", "durer"],
           ["to demonstrate", "d\u00e9montrer"],
           ["to care", "soucier"],
           ["to taper", "diminuer"],
@@ -1499,6 +1505,14 @@ present_verbs = [ ["I run", "je cours"],
                   ["y'all care", "vous souciez"],
                   ["they(m) care", "ils soucient"],
                   ["they(f) care", "elles soucient"],
+                  ["I last", "je dure"],
+                  ["you last", "tu dures"],
+                  ["he lasts", "il dure"],
+                  ["she lasts", "elle dure"],
+                  ["we last", "nous durons"],
+                  ["y'all last", "vous durez"],
+                  ["they(m) last", "ils durent"],
+                  ["they(f) last", "elles durent"],
                 ]
 
 imparfait_verbs = [ ["I ran", "je courais"],
@@ -1765,6 +1779,14 @@ imparfait_verbs = [ ["I ran", "je courais"],
                     ["y'all cared", "vous souciiez"],
                     ["they(m) cared", "ils souciaient"],
                     ["they(f) cared", "elles souciaient"],
+                    ["I lasted", "je durais"],
+                    ["you lasted", "tu durais"],
+                    ["he lasted", "il durait"],
+                    ["she lasted", "elle durait"],
+                    ["we lasted", "nous durions"],
+                    ["y'all lasted", "vous duriez"],
+                    ["they(m) lasted", "ils duraient"],
+                    ["they(f) lasted", "elles duraient"],
                   ]
 
 futur_simple_verbs = [
@@ -2032,6 +2054,14 @@ futur_simple_verbs = [
                     ["y'all will care", "vous soucierez"],
                     ["they(m) will care", "ils soucieront"],
                     ["they(f) will care", "elles soucieront"],
+                    ["I will last", "je durerai"],
+                    ["you will last", "tu dureras"],
+                    ["he will last", "il durera"],
+                    ["she will last", "elle durera"],
+                    ["we will last", "nous durerons"],
+                    ["y'all will last", "vous durerez"],
+                    ["they(m) will last", "ils dureront"],
+                    ["they(f) will last", "elles dureront"],
                   ]
 
 passe_compose_verbs = [
@@ -2319,6 +2349,14 @@ passe_compose_verbs = [
                     ["y'all cared", "vous avez souci\u00e9"],
                     ["they(m) cared", "ils ont souci\u00e9"],
                     ["they(f) cared", "elles ont souci\u00e9"],
+                    ["I lasted", "j'ai dur\u00e9"],
+                    ["you lasted", "tu as dur\u00e9"],
+                    ["he lasted", "il a dur\u00e9"],
+                    ["she lasted", "elle a dur\u00e9"],
+                    ["we lasted", "nous avons dur\u00e9"],
+                    ["y'all lasted", "vous avez dur\u00e9"],
+                    ["they(m) lasted", "ils ont dur\u00e9"],
+                    ["they(f) lasted", "elles ont dur\u00e9"],
                   ]
 
 
