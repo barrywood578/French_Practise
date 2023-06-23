@@ -391,6 +391,7 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the software", "le logiciel"],
           ["the DJ", "le DJ"],
           ["the entertainment", "le divertissement"],
           ["the satisfaction", "la satisfaction"],
