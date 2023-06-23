@@ -85,6 +85,8 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["long periods of boredom interspersed with moments of sheer terror",
+           "de longues p\u00e9riodes d'ennui entrecoup\u00e9es de moments de pure terreur"],
           ["we will be away tomorrow", "nous nous absenterons demain"],
           ["a tall tree", "un grand arbre"],
           ["a large tree (wide and tall)", "un gros arbre"],
