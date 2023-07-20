@@ -85,6 +85,8 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["hand-eye coordination", "coordination main-oeil"],
+          ["detail oriented", "soucieux des details"],
           ["the lawnmower", "la tondeuse \u00e0 gazon"],
           ["it did not rain", "il n'a pas plu"],
           ["lifestyle", "mode de vie"],
@@ -398,6 +400,14 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the balance", "l'equilibre"],
+          ["the barn", "la grange"],
+          ["the ribbon", "le ruban"],
+          ["the altar", "l'autel"],
+          ["the curve", "la courbe"],
+          ["the blister", "l'ampoule"],
+          ["the improvement", "le perfectionnement"],
+          ["the progress", "le progr\u00e8s"],
           ["the highway", "l'autoroute"],
           ["the shade", "l'ombre"],
           ["the butcher(m)", "le boucher"],
@@ -1091,6 +1101,9 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to show off", "frimer"],
+          ["to convert", "convertir"],
+          ["to outsource", "sous-traiter"],
           ["to last/endure", "durer"],
           ["to connect", "connecter"],
           ["to demonstrate", "d\u00e9montrer"],
