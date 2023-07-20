@@ -85,6 +85,11 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["the lawnmower", "la tondeuse \u00e0 gazon"],
+          ["it did not rain", "il n'a pas plu"],
+          ["lifestyle", "mode de vie"],
+          ["breakup with my fiance", "rompre avec mon fianc\u00e9"],
+          ["raise the kids", "\u00e9lever les enfants"],
           ["long periods of boredom interspersed with moments of sheer terror",
            "de longues p\u00e9riodes d'ennui entrecoup\u00e9es de moments de pure terreur"],
           ["we will be away tomorrow", "nous nous absenterons demain"],
@@ -393,6 +398,11 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+          ["the highway", "l'autoroute"],
+          ["the shade", "l'ombre"],
+          ["the butcher(m)", "le boucher"],
+          ["the butcher(f)", "la bouch\u00e8re"],
+          ["happiness", "bonheur"],
           ["the software", "le logiciel"],
           ["the DJ", "le DJ"],
           ["the entertainment", "le divertissement"],
@@ -947,6 +957,7 @@ nouns = [ ["the coal", "le charbon"],
           ]
 
 adjectives = [
+          ["genetic", "g\u00e9n\u00e9tique"],
           ["daily(m)", "quotidien"],
           ["daily(f)", "quotidienne"],
           ["stiff", "raide"],
@@ -1081,6 +1092,7 @@ adjectives = [
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
           ["to last/endure", "durer"],
+          ["to connect", "connecter"],
           ["to demonstrate", "d\u00e9montrer"],
           ["to care", "soucier"],
           ["to taper", "diminuer"],
