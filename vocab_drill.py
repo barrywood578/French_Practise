@@ -87,6 +87,11 @@ class vocab_drill(object):
         return continue_test
 
 phrases = [
+          ["healthy", "en bonne sant\u00e9"],
+          ["blood pressure", "pression art\u00e9rielle"],
+          ["you are tall(m)", "tu es grand"],
+          ["you are tall(f)", "tu es grande"],
+          ["the tribes custom", "la coutume des tribus"],
           ["hand-eye coordination", "coordination main-oeil"],
           ["detail oriented", "soucieux des details"],
           ["the lawnmower", "la tondeuse \u00e0 gazon"],
@@ -402,6 +407,17 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
+
+          ["the conference centre", "le centre de conf\u00e9rence"],
+          ["a fan/supporter", "un fan"],
+          ["a (movie) producer", "un producteur"],
+          ["the phone jack", "la prise t\u00e9l\u00e9phonique"],
+          ["phishing", "hame\u00e7onnage"],
+          ["the blanket", "la couverture"],
+          ["the shit", "la merde"],
+          ["the hay", "le foin"],
+          ["the cage", "la cage"],
+          ["the wheel", "la roue"],
           ["the balance", "l'equilibre"],
           ["the barn", "la grange"],
           ["the ribbon", "le ruban"],
@@ -1103,6 +1119,7 @@ adjectives = [
           ]
 
 verbs = [ ["to enter/input/grasp/grab/seize/hit", "saisir"],
+          ["to shit", "chier"],
           ["to show off", "frimer"],
           ["to convert", "convertir"],
           ["to outsource", "sous-traiter"],
