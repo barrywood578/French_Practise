@@ -144,7 +144,7 @@ phrases = [
            "les insultes me dérangent assez peu"],
           ["he gets confused when he explains things",
            "il s'embrouille dans ses explications"],
-          ["I'm quick to lose my temper", "je m’emporte facilement"],
+          ["I'm quick to lose my temper", "je m'emporte facilement"],
           ["go away", "va-t'en"],
           ["he falls asleep in front of his TV.",
            "il s'endort devant sa t\u00e9l\u00e9"],
@@ -409,7 +409,7 @@ phrases = [
           ]
 
 nouns = [ ["the coal", "le charbon"],
-
+          ["the knot", "le noeud"],
           ["the conference centre", "le centre de conf\u00e9rence"],
           ["a fan/supporter", "un fan"],
           ["a (movie) producer", "un producteur"],
